@@ -21,7 +21,7 @@ namespace Televisor
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Canal 2
+             //Canal 2
             axWindowsMediaPlayer1.URL = "http://ss1.domint.net:2126/ta2_str/teleantillas/chunklist_w460875019.m3u8";
             label2.Text = "Canal 2: TeleAntillas";
 
@@ -58,7 +58,7 @@ namespace Televisor
             if (canal == 3)
 
             {
-                //Canal 7
+                //Canal 9
                 axWindowsMediaPlayer1.URL = "http://ss2.domint.net:2138/cvh_str/colorvisionhd/playlist.m3u8";
                 label2.Text = "Canal 9: Color Visión";
             }
@@ -287,10 +287,88 @@ namespace Televisor
 
         private void Buscar_Click(object sender, EventArgs e)
         {
-           int Bcanal = int.Parse(canalBox.Text);
+            int Bcanal = int.Parse(canalBox.Text);
 
+            if (Bcanal == 2)
+            {
+                //Canal 2
+                axWindowsMediaPlayer1.URL = "http://ss1.domint.net:2126/ta2_str/teleantillas/chunklist_w460875019.m3u8";
+                label2.Text = "Canal 2: TeleAntillas";
+            }
 
+           else if (Bcanal == 5)
+            {
+                //Canal 5
+                axWindowsMediaPlayer1.URL = "http://stream.grupotelemicro.com/5.m3u8";
+                label2.Text = "Canal 5: Telemicro";
+            }
+
+           else if (Bcanal == 9)
+            {
+                //Canal 9
+                axWindowsMediaPlayer1.URL = "http://ss2.domint.net:2138/cvh_str/colorvisionhd/playlist.m3u8";
+                label2.Text = "Canal 9: Color Visión";
+            }
+
+         else   if (Bcanal == 10)
+            {
+                //Canal 10
+                axWindowsMediaPlayer1.URL = "http://190.103.183.24:1935/live/MicroHD/chunklist_w1105794626.m3u8";
+                label2.Text = "Canal 10: Microvisión";
+            }
+
+          else  if (Bcanal == 11)
+            {
+                //Canal 11
+                axWindowsMediaPlayer1.URL = "http://ss3.domint.net:2114/t11_str/telesistema/chunklist_w1744473215.m3u8";
+                label2.Text = "Canal 11: Telesistema 11";
+            }
+           else if (Bcanal == 13)
+            {
+                //Canal 13
+                axWindowsMediaPlayer1.URL = "http://stream.grupotelemicro.com/13.m3u8";
+                label2.Text = "Canal 13: Telecentro";
+            }
+         else   if (Bcanal == 15)
+            {
+                //Canal 15
+                axWindowsMediaPlayer1.URL = "http://stream.grupotelemicro.com/15.m3u8";
+                label2.Text = "Canal 15: Digital 15";
+            }
+           else if (Bcanal == 29)
+            {
+                //Canal 29
+                axWindowsMediaPlayer1.URL = "http://ss1.domint.net:2302/tu_str/universo/chunklist_w197342393.m3u8";
+                label2.Text = "Canal 29: Teleuniverso";
+            }
+
+           else if (Bcanal == 59)
+            {
+                //Canal 59
+                axWindowsMediaPlayer1.URL = "http://mangotv01.streamprolive.com/hls/live_med.m3u8";
+                label2.Text = "Canal 59: Mango TV";
+            }
+
+            else
+            {
+                MessageBox.Show("Lo siento, pero el canal que puso o no existe o no pudo ser encontrado por razones desconocidas.", "Error al buscar canal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            canalBox.Clear();
         }
     }
 }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
