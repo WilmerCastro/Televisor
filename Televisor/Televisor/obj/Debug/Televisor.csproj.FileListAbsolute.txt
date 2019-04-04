@@ -1,0 +1,15 @@
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\bin\Debug\Televisor.exe.config
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\bin\Debug\Televisor.exe
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\bin\Debug\Televisor.pdb
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\bin\Debug\Interop.WMPLib.dll
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.csprojAssemblyReference.cache
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Interop.WMPLib.dll
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.csproj.ResolveComReference.cache
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.Form1.resources
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.Properties.Resources.resources
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.csproj.GenerateResource.cache
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.csproj.CoreCompileInputs.cache
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.exe
+C:\Users\yo\Documents\GitHub\Televisor\Televisor\Televisor\obj\Debug\Televisor.pdb
